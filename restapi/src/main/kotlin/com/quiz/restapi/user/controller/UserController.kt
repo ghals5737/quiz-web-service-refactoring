@@ -12,7 +12,9 @@ class UserController {
 
     @GetMapping()
     fun getUser(@RequestAttribute userId:Long): User {
-        return User(userId,"aa");
+        return User(userId,"aa","aa")
     }
+
+
 
 }
