@@ -7,4 +7,9 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/api/users")
 class UserController {
 
+    @GetMapping
+    fun getUser(Long userId):User{
+        return null;
+    }
+
 }
