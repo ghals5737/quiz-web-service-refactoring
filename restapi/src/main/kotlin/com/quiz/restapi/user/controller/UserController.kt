@@ -16,4 +16,11 @@ class UserController {
     fun login(@RequestBody user:User){
 
     }
+
+    @DeleteMapping
+     fun delete(userNo: Long) {
+        //userService.deleteUser(userNo)
+    }
+
+
 }
